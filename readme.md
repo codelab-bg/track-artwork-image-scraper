@@ -22,7 +22,7 @@ Also in **cse** console make sure **Image Search** and **Search the entire web**
 ## Usage
 
 ``` php
-$result = TrackArtworkImageScraper::search($query, $page, $filters);
+$result = TrackArtworkImageScraper::search($query, $page, $perPage, $filters);
 ```
 
 page and filters are optional. More about filters on - https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list

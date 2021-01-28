@@ -1,6 +1,6 @@
 {
     "name": "codelab-bg/track-artwork-image-scraper",
-    "description": ":Tool to get images from google api",
+    "description": "Tool to get images from google api",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +8,7 @@
             "email": "pavel.pavlov@codelab.bg"
         }
     ],
-    "homepage": "https://github.com/codelabbg/trackartworkimagescraper",
+    "homepage": "https://github.com/codelab-bg/track-artwork-image-scraper",
     "keywords": ["Laravel", "TrackArtworkImageScraper"],
     "require": {
         "illuminate/support": "~7|~8",

@@ -16,15 +16,16 @@ class TrackArtworkImageScraper
     /**
      * @param string $query
      * @param int    $page
+     * @param int    $perPage
      * @param array  $filters
      *
      * @return mixed
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function search(string $query, int $page = 1, array $filters = [])
+    public function search(string $query, int $page = 1, int $perPage = 5, array $filters = [])
     {
         // google implementation for page results is offset (e.g. page 2 is $start = 11, page 3 is $start = 21...)
-        $start = $page > 1 ? ($page * 10) + 1 : $page;
+        $start = $page > 1 ? (($page - 1) * $perPage ) + 1 : $page;
 
         $query = [
             'key' => config('track-artwork-image-scraper.apiKey'),
