@@ -33,6 +33,7 @@ class TrackArtworkImageScraper
             'q' => $query,
             'searchType' => 'image',
             'start' => $start,
+            'num' => $perPage,
         ];
 
         foreach ($filters as $key => $filter) {
