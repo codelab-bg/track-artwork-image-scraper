@@ -3,6 +3,7 @@
 namespace CodelabBg\TrackArtworkImageScraper;
 
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
 
 class TrackArtworkImageScraper
 {
@@ -40,6 +41,12 @@ class TrackArtworkImageScraper
             $query[$key] = $filter;
         }
 
-        return json_decode($this->client->get(config('track-artwork-image-scraper.baseUrl'), ['query' => $query])->getBody(), true);
+        try {
+            $response = $this->client->get(config('track-artwork-image-scraper.baseUrl'), ['query' => $query]);
+        } catch (RequestException $exception) {
+            return $exception->getResponse();
+        }
+
+        return $response;
     }
 }

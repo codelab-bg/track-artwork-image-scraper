@@ -53,5 +53,5 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/codelabbg/trackartworkimagescraper.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/codelabbg/trackartworkimagescraper.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/codelab-bg/track-artwork-image-scraper.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/codelabbg/track-artwork-image-scraper.svg?style=flat-square
