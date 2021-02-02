@@ -2,7 +2,6 @@
 
 [![Latest Version][ico-version]](https://github.com/codelab-bg/track-artwork-image-scraper/)
 [![Total Downloads][ico-downloads]](https://packagist.org/packages/codelab-bg/track-artwork-image-scrapper)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/codelab-bg/track-artwork-image-scrapper/run-tests?label=tests)
 
 Package to search for images trough google api - Custom Search
 
@@ -54,4 +53,4 @@ If you discover any security related issues, please email author email instead o
 license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/codelab-bg/track-artwork-image-scraper.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/codelabbg/track-artwork-image-scraper.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/codelab-bg/track-artwork-image-scraper.svg?style=flat-square
